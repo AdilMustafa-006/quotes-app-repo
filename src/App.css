@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.font-face-quotes {
+  height: 100vh;
+  font-family: 'Inter';
+  background: #f5d3d373;
+}

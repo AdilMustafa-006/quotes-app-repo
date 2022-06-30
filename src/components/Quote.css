@@ -1,0 +1,99 @@
+.quote-box-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.quote-box {
+  position: relative;
+  width: 454px;
+  height: 566px;
+  background: #fbfbfd;
+  border: 1px solid #e3dfdf;
+  box-shadow: 0px 4px 20px rgba(119, 119, 119, 0.05);
+  border-radius: 10px;
+  padding: 32px 0;
+}
+.quote-wrapper {
+  height: 530px;
+  overflow-y: auto;
+}
+
+.quote-box-title {
+  padding-bottom: 36px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-align: center;
+}
+.quote-card {
+  background: #ffffff;
+  border: 1px solid #f4f4f4;
+  border-radius: 10px;
+  width: 340px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  padding: 18px 32px;
+}
+.quote-card-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.quote-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.quote-date {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ff8e8e;
+}
+
+.quote-card-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.quote-footer-btn {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ff8e8e;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 32px;
+}
+
+.quote-author {
+  width: 32px;
+  height: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 13px;
+  margin-left: 5px;
+  color: #bdb8b8;
+}
